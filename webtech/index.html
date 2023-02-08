@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>CV Builder</title>
+	<link rel="stylesheet" href="styles.css" />
+	<script src="js/jsPDF/dist/jspdf.umd.js" defer></script>
+</head>
+
+<body>
+	<div class="heading">CV Builder</div>
+	<div class="container">
+		<form action="#">
+			<!--Personal Details-->
+			<div class="title">Personal Details</div>
+			<div class="user-details">
+				<div class="input-box">
+					<label class="details">First Name</label>
+					<input type="text" placeholder="Enter your first name" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Last Name</label>
+					<input type="text" placeholder="Enter your last name" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Email</label>
+					<input type="email" placeholder="abc@hotmail.com" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Phone</label>
+					<input type="number" placeholder="Enter your phone number" required />
+				</div>
+				<div class="input-box">
+					<label class="details">City</label>
+					<input type="text" placeholder="Enter your city" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Country</label>
+					<input type="text" placeholder="Enter your country" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Pin Code</label>
+					<input type="number" placeholder="Pin Code" required />
+				</div>
+			</div>
+			<hr />
+			<!--Experience of User-->
+			<div class="title">Experience</div>
+			<div class="experience">
+				<div style:"float:left;" class="input-box">
+					<label class="details">Job Title</label>
+					<input type="text" placeholder="Job Name" />
+				</div>
+				<div class="input-box">
+					<label class="details">Company Name</label>
+					<input type="text" placeholder="Company" />
+				</div>
+				<div class="input-box">
+					<label class="details">City</label>
+					<input type="text" placeholder="City" />
+				</div>
+				<div class="input-box">
+					<label class="details">Country</label>
+					<input type="text" placeholder="Country" />
+				</div>
+				<div class="input-box">
+					<label class="details">Start Date</label>
+					<input type="date" placeholder="Select a date" />
+				</div>
+				<div class="input-box">
+					<label class="details">End Date</label>
+					<input type="date" placeholder="Select a date" />
+				</div>
+				<div class="input-box">
+					<label class="details">I currently work here</label>
+					<input type="checkbox" />
+				</div>
+			</div>
+			<hr />
+			<!--Education of User-->
+			<div class="title">Education</div>
+			<div class="education">
+				<div class="input-box">
+					<label class="details">School Name</label>
+					<input type="text" placeholder="School Name" required />
+				</div>
+				<div class="input-box">
+					<label class="details">School Location</label>
+					<input type="text" placeholder="Location" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Qualification</label>
+					<input type="text" placeholder="Qualified in" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Field of Study</label>
+					<input type="text" placeholder="Accounting" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Year of Graduation</label>
+					<input type="date" required />
+				</div>
+				<div class="input-box">
+					<label class="details">Currently pursueing?</label>
+					<input type="checkbox" />
+				</div>
+			</div>
+			<hr />
+			<!--Skills-->
+			<div class="title">Skills</div>
+			<div class="skills">
+				<div class="input-box">
+					<textarea rows="3" cols="50"></textarea>
+				</div>
+			</div>
+			<hr />
+			<!--Summary-->
+			<div class="title">Summary</div>
+			<div class="summary">
+				<div class="input-box">
+					<textarea rows="5" cols="50"></textarea>
+				</div>
+			</div>
+			<button>Generate CV</button>
+		</form>
+
+	</div>
+</body>
+
+</html>

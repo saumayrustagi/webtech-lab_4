@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p>Approximate timing for various operations on a typical PC:</p>
+<table border=1 cellpadding=2 cellspacing=2>
+	<tr>
+		<td>execute typical instruction
+		<td align=right> 1/1,000,000,000 sec = 1 nanosec
+	<tr>
+		<td>fetch from L1 cache memory
+		<td align=right> 0.5 nanosec
+	<tr>
+		<td>branch misprediction
+		<td align=right> 5 nanosec
+	<tr>
+		<td>fetch from L2 cache memory
+		<td align=right> 7 nanosec
+	<tr>
+		<td>Mutex lock/unlock
+		<td align=right> 25 nanosec
+	<tr>
+		<td>fetch from main memory
+		<td align=right> 100 nanosec
+	<tr>
+		<td>send 2K bytes over 1Gbps network
+		<td align=right> 20,000 nanosec
+	<tr>
+		<td>read 1MB sequentially from memory
+		<td align=right> 250,000 nanosec
+	<tr>
+		<td>fetch from new disk location (seek)
+		<td align=right> 8,000,000 nanosec
+	<tr>
+		<td>read 1MB sequentially from disk
+		<td align=right> 20,000,000 nanosec
+	<tr>
+		<td>send packet US to Europe and back
+		<td align=right> 150 milliseconds = 150,000,000 nanosec
+</table>
+</body>
+</html>

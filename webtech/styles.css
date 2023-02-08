@@ -1,0 +1,83 @@
+* {
+	font-family: "Poppins", sans-serif;
+	color: whitesmoke;
+  }
+  body {
+	/* background-color: darkmagenta; */
+	/* background: linear-gradient(to right, #c471f5 0%, #fa71cd 100%); */
+	/* background: linear-gradient(to right, #c471f5 0%, #fa71cd 100%); */
+	background: linear-gradient(to left, #0000ff 0%, #923cb5 100%);
+  }
+  .container {
+	width: 85%;
+	margin-left: 8%;
+	background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+  }
+  form {
+	padding: 5px;
+	width: 100%;
+	max-width: 600px;
+  }
+  
+  .input-box {
+	margin-bottom: 5px;
+	display: inline-block;
+	/* margin-left: 5px; */
+	margin-right: 5px;
+	padding: 2px;
+	margin-left: 50px;
+  }
+  input,
+  textarea {
+	width: 100%;
+	padding: 10px;
+	outline: 0;
+	border: 2px solid purple;
+	box-shadow: 2px 2px 5px palevioletred;
+	color: #0f0c29;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	background-color: #e6ffff;
+  }
+  .title {
+	font-size: 25px;
+	font-weight: 600;
+	color: violet;
+	margin-top: 5px;
+  }
+  .heading {
+	font-size: 45px;
+	font-style: bold;
+	font-weight: bold;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+	  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: lightgoldenrodyellow;
+	text-align: center;
+  }
+  .details {
+	font-size: 20px;
+	font-weight: 500;
+	color: plum;
+  }
+  input:focus,
+  input:valid {
+	border-color: purple;
+  }
+  button {
+	color: purple;
+	font-size: 20px;
+	text-align: center;
+	border: 5px block darkmagenta;
+	padding: auto;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+  }
